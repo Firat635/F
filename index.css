@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav p{
+    color: #1fa67a; 
+    font-size: 25px;
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+.navbar{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  width: 60%;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #a49d99;
+    padding: 20px 15px;
+    height: 70px;
+    transition: all 0.3s;
+}
+
+.home{
+     height: 70px;
+    color: white!important; 
+    background-color: #1fa67a;
+    text-decoration: none;
+    
+}
+.navbar li a:hover{
+    background-color: #1fa67a;
+    color: white;
+}
+.sectionone{ background-image: url("https://149842022.v2.pressablecdn.com/dazzling/wp-content/uploads/sites/54/2013/01/homev_updated1_02.jpg");
+height: 600px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+}
+.mydivone{
+    position: absolute;
+    bottom: 10px;
+    left :300px;
+    margin-bottom: 20px;
+}
+
+.mydivone h3 {
+    width: 33%;
+    background-color: #2eb483;
+    opacity: 0.7;
+    padding: 13px;
+    color: white;
+    font-size: 13px;
+}
+
+.mydivone p {
+    background-color: #575754;
+    opacity: 0.8;
+    width: 41%;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    
+}
+.green{
+    background-color: #1fa67a;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.green p{
+    color: white;
+    font-size: 25px;
+
+}
+.green button{
+    padding: 17px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+   background-color: #1fa67a;
+   color: white;
+border: solid 1px;
+
+}
+.green button:hover{
+    background-color: white;
+    color: #1fa67a;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.divfoto{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.mydivtwo{
+    margin-top: 20px;   
+display: flex;
+flex-direction: column;
+justify-content: end;
+
+
+}
+.divdiv{
+    display: flex;
+}
+.divf{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    height: 1000;
+    align-items: end;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.mydivtwotwo{
+    border-bottom: solid 1px rgb(196, 196, 195);
+    margin-top: 20px;
+    
+}
+
+.texttwo i{
+    color: #1bb481c7;
+}
+
+#icon:hover{
+    cursor: pointer;
+    
+
+}
+.text{
+    font-size: 30px;
+}
+.text:hover{
+    cursor: pointer;
+}
+.texttwo{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.fotoone{
+    margin-bottom: 20px;
+}
+.foto{
+    border-bottom: solid 1px rgb(167, 167, 164);
+    margin-top: 20px;
+    gap: 15px;
+    display: flex;
+    width: 700px;
+    margin-bottom: 20px;
+}
+.fotoone img{
+    height: 200px;
+    width: 320px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.bir{
+    padding: 10px;
+    background-color: white;
+    color: #1fa67a;
+    border: solid 1px;
+}
+.bir:hover{
+    background-color: #2eb483;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fotoyazi{
+    margin-bottom: 30px;
+    display: flex;
+   
+align-items: end;
+flex-direction: column;
+gap: 20px;
+}
+
+.hand:hover{
+    cursor: pointer;
+   
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #1fa67a;
+    transition: 0.7s;
+}
+.img:hover{
+    border: 1px solid rgb(31, 22, 51) !important;
+}
+.divffff{
+    display: flex;
+    align-items: center; 
+    border-bottom: solid 1px #dadada;
+    margin: 10px;
+    width: 90%;
+    
+}
+.divvvv{
+    display: flex;
+    flex-direction: column;
+align-items: start;
+    height: 500px;
+    width: 400px;
+    border:solid 1px #bcbcbc;
+}
+.divff{
+    margin: 30px;
+}
+
+.inputone{
+    padding: 7px ;
+   width: 300px;
+   border:solid 1px;
+    border-color: #444444;
+    border-right: none;
+    
+    
+}
+
+.bosbos{
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+   padding: 10px 0px;
+   background-color: black;
+   color: white;
+   border: none;
+   transition: 0.5s;
+   
+}
+.bosbos:hover{
+    cursor: pointer;
+    background-color: #2eb483;
+    
+}
+.axirinci{
+   padding-top: 20px;
+    margin-top: 20px;
+    background-color:#313233 ;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.pages p{
+ 
+    color: #c3c3c3;
+    margin: 15px 0px;
+    border-bottom: solid 1px #444444;
+padding-bottom: 10px;
+   
+}
+.pages a{
+    list-style: none;
+    text-decoration: none;
+    color: #dcdcdc;
+    
+}
+.classone:hover{
+    cursor: pointer;
+    color: #444444 !important;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+.pages{
+    width: 300px;
+    
+}
+.Other{
+
+    color:#575754;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: none !important;
+}
+.colorlib img{
+    height: 50px;
+    margin-bottom: 7px;
+
+}
+.colorlib p{
+   color: #b0b6b7;
+}
+.colorlib{
+    width: 400px;
+}
+.footerend{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f1f1f;
+    height: 50px;
+    align-items: center;
+   
+}
+.footerend a{
+    color:#b5b5b0;
+    text-decoration: none;
+}
+.footerend a:hover{
+    color: white;
+}
+.footerend li {
+    list-style: none;
+   
+}
+.footerend ul{
+    display: flex;
+    gap: 20px;
+}
+.footerend p{
+    color: #6b6c6d;
+}
